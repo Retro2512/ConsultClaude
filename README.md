@@ -12,28 +12,16 @@
 
 <p align="center"><b>Codex has the hands. Claude has the ideas. ConsultClaude wires them together.</b></p>
 
+<p align="center">
+  <a href="#install"><img src="https://img.shields.io/badge/Install-Windows%20PowerShell-C8603C?style=for-the-badge" alt="Install with Windows PowerShell"></a>
+  <a href="#install"><img src="https://img.shields.io/badge/Install-macOS%20%2F%20Linux-20201E?style=for-the-badge" alt="Install on macOS or Linux"></a>
+</p>
+
 ---
 
 ConsultClaude is a Codex plugin. It lets Codex hand the creative, planning-heavy parts of a job (design, copy, architecture, reviews) to your local Claude Code CLI automatically, while Codex stays the one writing the code and running the tests.
 
 There's a longer take on [why that pairing works](#why-pair-codex-with-claude) further down.
-
-## What you can ask Claude for
-
-Pick a mode and Codex shapes the consultation for you:
-
-| Mode | Ask Claude to |
-| --- | --- |
-| `design` | critique a screen or component before you build it |
-| `layout` | rethink structure and information hierarchy |
-| `creative` | brainstorm a few genuinely different directions |
-| `copy` | sharpen product text, labels, and error messages |
-| `logic` | stress-test an algorithm and its edge cases |
-| `architecture` | weigh the tradeoffs on a design decision |
-| `review` | give an independent second review of a change |
-| `stress-test` | poke holes and surface failure modes |
-| `quick` | a fast, low-cost gut check |
-| `general` | anything that doesn't fit a box |
 
 ## What it looks like
 
@@ -66,6 +54,23 @@ Two things come out of that:
 - You get both strengths at once. Your idea gets understood and the creative output is strong, because each part is handled by the model that's better at it: the reading by Codex, the vision by Claude.
 
 This matters most when you're vibe coding. You can stay loose and conversational with Codex about what you want, and still get the kind of deliberate, creative plan you'd normally have to drag out of Claude by hand.
+
+## What you or Codex can ask Claude for
+
+Pick a mode and Codex shapes the consultation for you:
+
+| Mode | Ask Claude to |
+| --- | --- |
+| `design` | critique a screen or component before you build it |
+| `layout` | rethink structure and information hierarchy |
+| `creative` | brainstorm a few genuinely different directions |
+| `copy` | sharpen product text, labels, and error messages |
+| `logic` | stress-test an algorithm and its edge cases |
+| `architecture` | weigh the tradeoffs on a design decision |
+| `review` | give an independent second review of a change |
+| `stress-test` | poke holes and surface failure modes |
+| `quick` | a fast, low-cost gut check |
+| `general` | anything that doesn't fit a box |
 
 ## Install
 
